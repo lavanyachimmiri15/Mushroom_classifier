@@ -1,0 +1,35 @@
+{
+  "features": [
+    "cap-shape",
+    "cap-surface",
+    "cap-color",
+    "bruises",
+    "odor",
+    "gill-attachment",
+    "gill-spacing",
+    "gill-size",
+    "gill-color",
+    "stalk-shape",
+    "stalk-root",
+    "stalk-surface-above-ring",
+    "stalk-surface-below-ring",
+    "stalk-color-above-ring",
+    "stalk-color-below-ring",
+    "veil-color",
+    "ring-number",
+    "ring-type",
+    "spore-print-color",
+    "population",
+    "habitat"
+  ],
+  "target": "output",
+  "positive_label": "p",
+  "models": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "sklearn_version": "1.9.1"
+}

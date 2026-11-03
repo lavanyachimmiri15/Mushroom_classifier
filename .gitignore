@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*:Zone.Identifier
+.venv/
+.ipynb_checkpoints/
+# Assignment brief is course material; keep it out of the public repo.
+ML_Assignment_2_AIML_*.pdf

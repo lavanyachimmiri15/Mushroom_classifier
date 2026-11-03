@@ -1,0 +1,6 @@
+ML Model Name,Accuracy,AUC,Precision,Recall,F1,MCC,Best params,CV F1 (mean),CV F1 (std)
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,1.0,"{""C"": 10.0}",0.9995,0.001
+Decision Tree,0.9988,0.999,1.0,0.9974,0.9987,0.9975,"{""max_depth"": 5}",0.9997,0.0006
+KNN,1.0,1.0,1.0,1.0,1.0,1.0,"{""n_neighbors"": 3}",0.9995,0.001
+Naive Bayes,0.9895,0.9994,0.991,0.9872,0.9891,0.9791,"{""alpha"": 0.01}",0.9904,0.0025
+Support Vector Machine,1.0,1.0,1.0,1.0,1.0,1.0,"{""C"": 10.0}",1.0,0.0

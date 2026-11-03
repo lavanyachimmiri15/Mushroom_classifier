@@ -1,0 +1,11 @@
+# Works on Python 3.11 to 3.15.
+# scikit-learn is pinned exactly because the saved models in model/ were
+# trained with this version; the other libraries only need a compatible range.
+scikit-learn==1.9.1
+streamlit>=1.50,<2
+numpy>=2.0,<3
+scipy>=1.13
+pandas>=2.2.3
+joblib>=1.4
+matplotlib>=3.9
+pyarrow>=16
